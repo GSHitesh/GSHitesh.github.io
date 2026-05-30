@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<meta name="color-scheme" content="dark" />
+<title>404 · route not found · Sai Hitesh Gorantla</title>
+<meta name="robots" content="noindex" />
+<link rel="icon" type="image/svg+xml" href="favicon.svg" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&family=Instrument+Serif:ital@1&display=swap" rel="stylesheet">
+<style>
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+  :root{--bg:#08090b;--ink:#e9edf3;--ink-2:#c2c8d4;--mute:#7b8290;--teal:#5eead4;--line:rgba(255,255,255,.07);--line-2:rgba(255,255,255,.12);--signal:#22d3a0}
+  html,body{background:var(--bg);color:var(--ink);min-height:100vh}
+  body{
+    font-family:"Geist",system-ui,sans-serif;display:flex;align-items:center;justify-content:center;padding:40px 24px;
+    background:radial-gradient(1000px 600px at 80% -10%,rgba(94,234,212,.06),transparent 60%),radial-gradient(800px 500px at -10% 30%,rgba(167,139,250,.05),transparent 60%),var(--bg);
+  }
+  .wrap{max-width:560px;text-align:left}
+  .pre{font-family:"Geist Mono",monospace;color:var(--teal);font-size:12px;letter-spacing:.18em;text-transform:uppercase;margin-bottom:18px;display:flex;align-items:center;gap:10px}
+  .pre::before{content:"";width:14px;height:1px;background:var(--teal)}
+  .led{width:7px;height:7px;border-radius:50%;background:var(--signal);box-shadow:0 0 8px var(--signal);animation:pulse 1.8s infinite}
+  @keyframes pulse{0%,100%{opacity:1}50%{opacity:.45}}
+  h1{font-weight:600;font-size:clamp(40px,7vw,68px);line-height:1.05;letter-spacing:-.025em;margin-bottom:22px}
+  h1 em{font-family:"Instrument Serif",serif;font-style:italic;color:var(--teal);font-weight:400}
+  p{color:var(--ink-2);font-size:16px;line-height:1.65;margin-bottom:14px}
+  code{font-family:"Geist Mono",monospace;font-size:13px;color:var(--teal);background:rgba(94,234,212,.06);padding:3px 8px;border-radius:5px;border:1px solid var(--line-2)}
+  .ctas{margin-top:28px;display:flex;gap:10px;flex-wrap:wrap}
+  .btn{display:inline-flex;align-items:center;gap:10px;padding:11px 18px;border-radius:8px;text-decoration:none;font-size:14px;font-weight:500;font-family:"Geist",sans-serif;transition:all .25s cubic-bezier(.2,.7,.1,1)}
+  .btn-primary{background:var(--teal);color:#06241d}
+  .btn-primary:hover{background:#7df0d8;transform:translateY(-2px);box-shadow:0 8px 24px rgba(94,234,212,.25)}
+  .btn-ghost{background:rgba(255,255,255,.04);color:var(--ink);border:1px solid var(--line-2)}
+  .btn-ghost:hover{background:rgba(255,255,255,.08);transform:translateY(-2px)}
+  :focus-visible{outline:2px solid var(--teal);outline-offset:3px;border-radius:6px}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="pre"><span class="led"></span>err.404 · route not found</div>
+    <h1>This path returned <em>nothing</em>.</h1>
+    <p>The URL you tried isn&rsquo;t routed by this site. No redirects, no rewrites &mdash; just a clean miss.</p>
+    <p>Try <code>/</code> for the index, or use <code>⌘ K</code> on the home page to jump anywhere.</p>
+    <div class="ctas">
+      <a class="btn btn-primary" href="/">Back home →</a>
+      <a class="btn btn-ghost" href="/#contact">Open channel ↗</a>
+    </div>
+  </div>
+</body>
+</html>

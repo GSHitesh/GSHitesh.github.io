@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gshitesh.github.io/sitemap.xml

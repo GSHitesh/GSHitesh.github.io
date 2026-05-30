@@ -13,7 +13,10 @@
 <meta property="og:title" content="Sai Hitesh Gorantla — Systems Engineer" />
 <meta property="og:description" content="Backend systems, CI/CD, and honest observability — quietly lit by the metrics they emit." />
 <meta property="og:url" content="https://gshitesh.github.io/" />
-<meta property="og:image" content="https://gshitesh.github.io/og.svg" />
+<meta property="og:image" content="https://gshitesh.github.io/og.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:type" content="image/png" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
 <meta property="og:site_name" content="Sai Hitesh Gorantla" />
@@ -21,7 +24,7 @@
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="Sai Hitesh Gorantla — Systems Engineer" />
 <meta name="twitter:description" content="Backend systems, CI/CD, and honest observability — quietly lit by the metrics they emit." />
-<meta name="twitter:image" content="https://gshitesh.github.io/og.svg" />
+<meta name="twitter:image" content="https://gshitesh.github.io/og.png" />
 <link rel="icon" type="image/svg+xml" href="favicon.svg" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -287,6 +290,18 @@ footer{padding:42px 0 50px;border-top:1px solid var(--line);display:flex;flex-wr
   .bar nav a:not(.cta){display:none}
   .panel-ctc{padding:42px 26px}
 }
+
+/* a11y + UX polish */
+.section[id]{scroll-margin-top:80px}
+:focus-visible{outline:2px solid var(--teal);outline-offset:3px;border-radius:6px}
+.btn:focus-visible,.bar nav a:focus-visible,.kbar-btn:focus-visible{outline-offset:3px}
+.now-chip{display:inline-flex;align-items:center;gap:10px;padding:6px 12px;border:1px solid var(--line-2);border-radius:999px;font-family:"Geist Mono",monospace;font-size:12px;color:var(--ink-2);background:rgba(255,255,255,.02);margin:18px 0 0}
+.now-chip .k{color:var(--teal);text-transform:uppercase;letter-spacing:.14em;font-size:11px}
+.xpcard .summary{margin:-14px 0 18px;color:var(--ink-2);font-size:14px;line-height:1.6;font-style:italic;font-family:"Instrument Serif",serif;font-weight:400}
+@media (prefers-reduced-motion: reduce){
+  *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}
+  .reveal{opacity:1;transform:none}
+}
 </style>
 </head>
 <body>
@@ -322,8 +337,10 @@ footer{padding:42px 0 50px;border-top:1px solid var(--line);display:flex;flex-wr
       lit by the metrics they emit.
     </h1>
     <p class="lede">Two years shipping <b>production back-ends</b> — REST/SOAP integrations, CI/CD and observability across Python, Django, Docker and bare-metal Linux. I turn manual workflows into measured ones.</p>
+    <div class="now-chip"><span class="k">now</span><span>HPE · Bengaluru · platform engineering, CI/CD &amp; observability</span></div>
     <div class="ctas">
       <a class="btn btn-primary" href="#contact">Start a channel <span class="arrow">→</span></a>
+      <a class="btn btn-ghost" href="https://drive.google.com/file/d/1bALG9scCL53wAwPA5VFM_N4yXRSDOtyr/view?usp=sharing" target="_blank" rel="noopener">Résumé (PDF) <span class="arrow">↗</span></a>
       <a class="btn btn-ghost" href="#work">View experience <span class="arrow">↓</span></a>
     </div>
 
@@ -375,6 +392,7 @@ footer{padding:42px 0 50px;border-top:1px solid var(--line);display:flex;flex-wr
           <div class="when">Feb 2024 — Present · Bengaluru <span class="badge">live</span></div>
         </div>
         <div class="role">compute / automation / observability</div>
+        <p class="summary">Owning developer-experience tooling, RPM delivery and observability for HPE compute &amp; networking platforms.</p>
         <ul>
           <li><b>Developed</b> a custom Slack ChatOps bot to orchestrate multi-stage Jenkins pipelines and stream real-time alerts, boosting developer efficiency by <span class="num">~90%</span> by eliminating manual dashboard monitoring.</li>
           <li><b>Orchestrated</b> infrastructure bring-up for compute and networking hardware, scripting post-deployment validations to ensure systems met strict baseline standards.</li>
@@ -392,6 +410,7 @@ footer{padding:42px 0 50px;border-top:1px solid var(--line);display:flex;flex-wr
           <div class="when">Sept 2022 — Feb 2024 · Bengaluru</div>
         </div>
         <div class="role">backend / integrations / payments</div>
+        <p class="summary">Built and operated the API surface that connected ITILITE’s travel platform to GDS and partner vendors.</p>
         <ul>
           <li><b>Designed and shipped</b> REST and SOAP APIs in Python/Django for partner integrations, strengthening client connectivity and unlocking new revenue channels.</li>
           <li><b>Integrated</b> a SOAP API with a Terminal Service OT travel vendor, lifting company commissions by <span class="num">2.5%</span> on routed bookings.</li>
@@ -446,13 +465,15 @@ footer{padding:42px 0 50px;border-top:1px solid var(--line);display:flex;flex-wr
         <div class="row"><span class="prompt">$</span><span class="k">languages</span><span class="v">Python · C++ · Bash · Shell · SQL · Groovy</span></div>
         <div class="row"><span class="prompt">$</span><span class="k">frameworks</span><span class="v">Django · Django REST Framework · Flask</span></div>
         <div class="row"><span class="prompt">$</span><span class="k">apis</span><span class="v">REST · SOAP · JSON · XML · Postman · Microservices · Webhooks</span></div>
-        <div class="row"><span class="prompt">$</span><span class="k">ci_cd</span><span class="v">Jenkins · GitHub Actions · JFrog Artifactory · Docker · Ansible · Git · rpmbuild · Shell automation</span></div>
-        <div class="row"><span class="prompt">$</span><span class="k">observability</span><span class="v">Grafana · Prometheus · Loki · Zabbix · Log aggregation · Alerting</span></div>
-        <div class="row"><span class="prompt">$</span><span class="k">infrastructure</span><span class="v">HPE iLO · HPCM · Hypervisors · Bare-metal provisioning · NIC &amp; Switch · <span class="t">RHEL · Rocky · SLES</span></span></div>
+        <div class="row"><span class="prompt">$</span><span class="k">ci_cd</span><span class="v">Jenkins · GitHub Actions · Docker · Ansible · JFrog · rpmbuild</span></div>
+        <div class="row"><span class="prompt">$</span><span class="k">observability</span><span class="v">Grafana · Prometheus · Loki · Zabbix · log aggregation · alerting</span></div>
+        <div class="row"><span class="prompt">$</span><span class="k">infrastructure</span><span class="v">HPE iLO · HPCM · hypervisors · bare-metal &amp; NIC/switch bring-up</span></div>
+        <div class="row"><span class="prompt">$</span><span class="k">os_platforms</span><span class="v"><span class="t">RHEL · Rocky · SLES</span></span></div>
         <div class="row"><span class="prompt">$</span><span class="k">databases</span><span class="v">PostgreSQL · MySQL · SQLite</span></div>
         <div class="row"><span class="prompt">$</span><span class="k">cloud</span><span class="v">AWS (EC2, S3, IAM)</span></div>
-        <div class="row"><span class="prompt">$</span><span class="k">practices</span><span class="v">Agile / Scrum · Code Review · TDD · SDLC · Mentoring · Incident Response</span></div>
+        <div class="row"><span class="prompt">$</span><span class="k">practices</span><span class="v">Agile / Scrum · code review · TDD · SDLC · mentoring · incident response</span></div>
         <div class="row"><span class="prompt">$</span><span class="k">collab</span><span class="v">Jira · Confluence · Slack · GitHub</span></div>
+        <div class="row"><span class="prompt">$</span><span class="k">exploring</span><span class="v"><span class="t">Kubernetes · OpenTelemetry · Rust</span></span></div>
       </div>
     </div>
   </section>
