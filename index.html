@@ -4,14 +4,15 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <meta name="color-scheme" content="dark" />
-<title>Sai Hitesh Gorantla — Systems Engineer</title>
-<meta name="description" content="Sai Hitesh Gorantla — DevOps engineer building CI/CD pipelines, infrastructure automation, and observability across bare-metal Linux. Jenkins · Docker · Python · Grafana." />
+<title>Sai Hitesh Gorantla — Software Engineer · Developer Platforms &amp; Backend</title>
+<meta name="description" content="Sai Hitesh Gorantla — Software Engineer specializing in developer platforms, backend systems, infrastructure automation, and CI/CD. Python, FastAPI, Django, Jenkins, Docker, AWS, and observability across 100+ Linux servers." />
+<meta name="keywords" content="Software Engineer, Backend Engineer, Platform Engineer, Infrastructure Software Engineer, Site Reliability Engineer, Developer Productivity Engineer, Python, FastAPI, Django, Jenkins, CI/CD, Docker, AWS, Linux, Observability" />
 <meta name="theme-color" content="#08090b" />
 <link rel="canonical" href="https://gshitesh.github.io/" />
 <!-- Open Graph -->
 <meta property="og:type" content="website" />
-<meta property="og:title" content="Sai Hitesh Gorantla — Systems Engineer" />
-<meta property="og:description" content="Backend systems, CI/CD, and honest observability — quietly lit by the metrics they emit." />
+<meta property="og:title" content="Sai Hitesh Gorantla — Software Engineer · Developer Platforms &amp; Backend" />
+<meta property="og:description" content="Software Engineer building developer platforms, backend systems, and the automation that ships them. Python · FastAPI · Django · Jenkins · Docker · AWS · observability." />
 <meta property="og:url" content="https://gshitesh.github.io/" />
 <meta property="og:image" content="https://gshitesh.github.io/og.png" />
 <meta property="og:image:width" content="1200" />
@@ -22,8 +23,8 @@
 <meta property="og:site_name" content="Sai Hitesh Gorantla" />
 <!-- Twitter -->
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Sai Hitesh Gorantla — Systems Engineer" />
-<meta name="twitter:description" content="Backend systems, CI/CD, and honest observability — quietly lit by the metrics they emit." />
+<meta name="twitter:title" content="Sai Hitesh Gorantla — Software Engineer · Developer Platforms &amp; Backend" />
+<meta name="twitter:description" content="Software Engineer building developer platforms, backend systems, and the automation that ships them. Python · FastAPI · Django · Jenkins · Docker · AWS · observability." />
 <meta name="twitter:image" content="https://gshitesh.github.io/og.png" />
 <link rel="icon" type="image/svg+xml" href="favicon.svg" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -169,24 +170,25 @@ body{
 .xpcard li b{color:var(--ink);font-weight:600}
 .xpcard li .num{color:var(--amber);font-weight:600;font-family:"Geist Mono",monospace}
 
-/* Projects */
-.proj-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
-.pcard{
-  border:1px solid var(--line);border-radius:14px;padding:28px;
-  background:linear-gradient(180deg, var(--panel), var(--bg-2));
-  position:relative;overflow:hidden;
-  transition:border-color .25s var(--t), transform .25s var(--t);
-}
-.pcard:hover{border-color:var(--teal);transform:translateY(-3px)}
-.pcard .meta{font-family:"Geist Mono",monospace;font-size:12px;color:var(--mute);letter-spacing:.04em;margin-bottom:14px;display:flex;justify-content:space-between}
-.pcard .meta .ok{color:var(--signal)}
-.pcard h3{font-family:"Geist",sans-serif;font-weight:600;font-size:22px;letter-spacing:-.015em;margin-bottom:12px;color:var(--ink)}
-.pcard p{color:var(--ink-2);font-size:14.5px;line-height:1.65;margin-bottom:20px}
-.pcard .stack{display:flex;flex-wrap:wrap;gap:6px}
-.pcard .stack span{font-family:"Geist Mono",monospace;font-size:11.5px;color:var(--ink-2);padding:4px 9px;border:1px solid var(--line-2);border-radius:5px;background:rgba(255,255,255,.02);letter-spacing:.04em}
+/* Projects section removed */
+
+/* Featured case studies */
+.case-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.casecard{border:1px solid var(--line);border-radius:14px;padding:28px;background:linear-gradient(180deg,var(--panel),var(--bg-2));position:relative;overflow:hidden;transition:border-color .25s var(--t),transform .25s var(--t)}
+.casecard:hover{border-color:var(--line-2);transform:translateY(-3px)}
+.casecard::before{content:"";position:absolute;left:0;top:0;bottom:0;width:2px;background:linear-gradient(180deg,var(--teal),transparent);opacity:.7}
+.casecard .kicker{font-family:"Geist Mono",monospace;font-size:11px;color:var(--teal);letter-spacing:.14em;text-transform:uppercase;margin-bottom:12px}
+.casecard h3{font-family:"Geist",sans-serif;font-weight:600;font-size:21px;letter-spacing:-.015em;color:var(--ink);margin-bottom:18px;line-height:1.25}
+.casecard dl{margin-bottom:20px}
+.casecard dt{font-family:"Geist Mono",monospace;font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--mute);margin-bottom:4px}
+.casecard dd{color:var(--ink-2);font-size:14.5px;line-height:1.6;margin-bottom:14px}
+.casecard dd:last-child{margin-bottom:0}
+.casecard dd b{color:var(--ink);font-weight:600}
+.casecard dd .num{color:var(--amber);font-weight:600;font-family:"Geist Mono",monospace}
+.casecard .stack{display:flex;flex-wrap:wrap;gap:6px}
+.casecard .stack span{font-family:"Geist Mono",monospace;font-size:11.5px;color:var(--ink-2);padding:4px 9px;border:1px solid var(--line-2);border-radius:5px;background:rgba(255,255,255,.02);letter-spacing:.04em}
 
 /* Capabilities — terminal style */
-.term{
   border:1px solid var(--line);border-radius:14px;overflow:hidden;
   background:var(--bg-2);
 }
@@ -244,17 +246,6 @@ body{
 /* Footer */
 footer{padding:42px 0 50px;border-top:1px solid var(--line);display:flex;flex-wrap:wrap;gap:18px;justify-content:space-between;color:var(--mute);font-family:"Geist Mono",monospace;font-size:12px;letter-spacing:.06em}
 
-/* Uptime widget */
-.uptime{margin-top:18px;display:flex;align-items:center;gap:14px;padding:14px 18px;border:1px solid var(--line);border-radius:12px;background:linear-gradient(180deg,var(--panel),var(--bg-2));font-family:"Geist Mono",monospace;font-size:12px;color:var(--mute);letter-spacing:.04em;flex-wrap:wrap}
-.uptime .lab{display:flex;align-items:center;gap:8px;color:var(--ink-2)}
-.uptime .lab .led{width:7px;height:7px;border-radius:50%;background:var(--signal);box-shadow:0 0 8px var(--signal);animation:pulse 1.8s infinite}
-.uptime .bars{display:flex;gap:2px;flex:1;min-width:200px;height:24px;align-items:flex-end}
-.uptime .bars i{display:block;flex:1;background:var(--signal);opacity:.55;border-radius:1px;transition:opacity .25s var(--t), background .25s var(--t)}
-.uptime .bars i.warn{background:var(--amber);opacity:.85}
-.uptime .bars i:hover{opacity:1}
-.uptime .pct{color:var(--ink);font-weight:500}
-.uptime .meta{color:var(--mute)}
-
 /* Command palette */
 .kbd{display:inline-flex;align-items:center;gap:4px;padding:3px 7px;border:1px solid var(--line-2);border-bottom-width:2px;border-radius:5px;background:rgba(255,255,255,.04);font-family:"Geist Mono",monospace;font-size:11px;color:var(--ink-2);letter-spacing:.04em;line-height:1}
 .bar nav .kbar-btn{display:inline-flex;align-items:center;gap:8px;padding:6px 10px;color:var(--mute);background:rgba(255,255,255,.03);border:1px solid var(--line);border-radius:7px;cursor:pointer;font-family:"Geist Mono",monospace;font-size:12px;transition:all .2s var(--t);margin-right:6px}
@@ -284,7 +275,7 @@ footer{padding:42px 0 50px;border-top:1px solid var(--line);display:flex;flex-wr
 @media (max-width:900px){
   .status-grid{grid-template-columns:1fr 1fr}
   .status-grid .cell:nth-child(2){border-right:0}
-  .proj-grid{grid-template-columns:1fr}
+  .case-grid{grid-template-columns:1fr}
   .two{grid-template-columns:1fr}
   .panel-ctc .channels{grid-template-columns:1fr}
   .bar nav a:not(.cta){display:none}
@@ -311,14 +302,14 @@ footer{padding:42px 0 50px;border-top:1px solid var(--line);display:flex;flex-wr
     <a class="brand" href="#top">
       <span class="led"></span>
       <span class="name">~/saihitesh</span>
-      <span class="meta">// systems engineer · IN</span>
+      <span class="meta">// software engineer · platforms &amp; backend</span>
     </a>
     <nav>
       <button class="kbar-btn" id="kbar-open" type="button" aria-label="Open command palette">
         <span>search</span><span class="kbd">⌘ K</span>
       </button>
+      <a href="#featured">featured</a>
       <a href="#work">work</a>
-      <a href="#projects">projects</a>
       <a href="#caps">capabilities</a>
       <a href="#archive">archive</a>
       <a class="cta" href="#contact">open channel →</a>
@@ -330,48 +321,80 @@ footer{padding:42px 0 50px;border-top:1px solid var(--line);display:flex;flex-wr
 
   <!-- HERO -->
   <section class="hero">
-    <div class="stat"><span class="led"></span><span>STATUS · ONLINE · ACCEPTING REQUESTS</span></div>
+    <div class="stat"><span class="led"></span><span>OPEN TO · SOFTWARE · PLATFORM · BACKEND ROLES</span></div>
     <h1>
-      <span class="accent">Sai Hitesh Gorantla —</span><br/>
-      building reliable backends, <span class="serif">quietly</span><br/>
-      lit by the metrics they emit.
+      <span class="accent">Sai Hitesh Gorantla</span><br/>
+      Software Engineer building <span class="serif">developer platforms,</span><br/>
+      backend systems &amp; the automation that ships them.
     </h1>
-    <p class="lede">DevOps engineer with <b>3+ years</b> building CI/CD pipelines and automating how software gets built, packaged and shipped — across Jenkins, Docker and bare-metal Linux, with observability to match. I turn manual workflows into measured ones.</p>
-    <div class="now-chip"><span class="k">now</span><span>HPE · Bengaluru · platform engineering, CI/CD &amp; observability</span></div>
+    <p class="lede">I design <b>developer platforms, CI/CD, and observability</b> that make engineering teams faster — from <b>FastAPI</b> services and GitHub-driven workflows to RPM delivery and monitoring across <b>100+ Linux servers</b>. <b>3+ years</b> across HPE and a high-scale travel platform.</p>
+    <div class="now-chip"><span class="k">now</span><span>HPE · Bengaluru · developer platforms, CI/CD &amp; observability</span></div>
     <div class="ctas">
       <a class="btn btn-primary" href="#contact">Start a channel <span class="arrow">→</span></a>
-      <a class="btn btn-ghost" href="https://drive.google.com/file/d/1Zf7G8mhE29g-sHntlhF0QWK_yyy8wG6h/view?usp=sharing" target="_blank" rel="noopener">Résumé (PDF) <span class="arrow">↗</span></a>
+      <a class="btn btn-ghost" href="Sai-Hitesh-Gorantla-Resume.pdf" target="_blank" rel="noopener">Résumé (PDF) <span class="arrow">↗</span></a>
       <a class="btn btn-ghost" href="#work">View experience <span class="arrow">↓</span></a>
     </div>
 
     <div class="status-grid">
       <div class="cell">
-        <div class="top"><span class="led"></span><span class="label">Dev efficiency</span></div>
+        <div class="top"><span class="led"></span><span class="label">Dev productivity</span></div>
         <div class="val">~90<span class="u">%</span></div>
-        <div class="desc">Slack ChatOps bot · multi-stage Jenkins orchestration.</div>
+        <div class="desc">Internal developer platform (Slack + GitHub + Jenkins) across five global teams.</div>
       </div>
       <div class="cell">
-        <div class="top"><span class="led"></span><span class="label">Onboarding</span></div>
-        <div class="val">&lt;1<span class="u">day</span></div>
-        <div class="desc">Parameterized RPM build / sign / publish framework.</div>
+        <div class="top"><span class="led"></span><span class="label">Fleet observed</span></div>
+        <div class="val">100<span class="u">+</span></div>
+        <div class="desc">Linux servers under centralized Grafana / Loki / Zabbix observability.</div>
       </div>
       <div class="cell">
         <div class="top"><span class="led"></span><span class="label">Annual savings</span></div>
         <div class="val">₹50L<span class="u">+</span></div>
-        <div class="desc">PCI migration to GDS Smartpoint via Django + SOAP.</div>
+        <div class="desc">Payment-gateway costs eliminated via a PCI workflow into GDS Smartpoint.</div>
       </div>
       <div class="cell">
-        <div class="top"><span class="led"></span><span class="label">Ops gain</span></div>
-        <div class="val">+20<span class="u">%</span></div>
-        <div class="desc">Booking-flow incident reduction · SLA tightened.</div>
+        <div class="top"><span class="led"></span><span class="label">Faster bring-up</span></div>
+        <div class="val">~1<span class="u">wk</span></div>
+        <div class="desc">Saved per HPC system via automated provisioning &amp; driver install.</div>
       </div>
     </div>
+  </section>
 
-    <div class="uptime" id="uptime" aria-label="Synthetic uptime visualization">
-      <div class="lab"><span class="led"></span><span>uptime</span></div>
-      <div class="bars" id="uptime-bars"></div>
-      <span class="pct" id="uptime-pct">99.97%</span>
-      <span class="meta">last 90 days</span>
+  <!-- FEATURED WORK -->
+  <section class="section" id="featured">
+    <div class="section-head">
+      <div>
+        <div class="pre">01 — featured.work</div>
+        <h2>Systems I <em>designed &amp; shipped</em>.</h2>
+      </div>
+      <div class="note">production case studies</div>
+    </div>
+    <div class="case-grid">
+      <article class="casecard reveal">
+        <div class="kicker">developer platform · HPE</div>
+        <h3>Internal Developer Platform — Slack + GitHub + Jenkins</h3>
+        <dl>
+          <dt>Problem</dt>
+          <dd>Manual build scheduling, test-system reservation, and CI/CD coordination were slowing five global engineering teams and creating constant hand-offs.</dd>
+          <dt>Built</dt>
+          <dd>A self-service platform that automates build scheduling, system reservation, and pipeline triggers through ChatOps — wiring Slack, GitHub, and Jenkins into a single workflow engineers drive from where they already work.</dd>
+          <dt>Impact</dt>
+          <dd><span class="num">~90%</span> improvement in developer productivity across <b>five global teams</b>.</dd>
+        </dl>
+        <div class="stack"><span>Python</span><span>Jenkins</span><span>Groovy</span><span>GitHub</span><span>Slack API</span></div>
+      </article>
+      <article class="casecard reveal">
+        <div class="kicker">observability · HPE</div>
+        <h3>Centralized Observability Platform — Grafana + Loki + Zabbix</h3>
+        <dl>
+          <dt>Problem</dt>
+          <dd>No unified view of system health, logs, and user sessions across 100+ heterogeneous Linux servers made incident diagnosis slow and manual.</dd>
+          <dt>Built</dt>
+          <dd>A centralized platform unifying metrics, logs, and audit/session activity — backed by a SQLite store — into a single pane of glass for the fleet.</dd>
+          <dt>Impact</dt>
+          <dd>Unified visibility across <span class="num">100+ servers</span> for <b>faster incident diagnosis</b> and root-cause analysis.</dd>
+        </dl>
+        <div class="stack"><span>Grafana</span><span>Loki</span><span>Zabbix</span><span>SQLite</span><span>Python</span><span>Linux</span></div>
+      </article>
     </div>
   </section>
 
@@ -379,7 +402,7 @@ footer{padding:42px 0 50px;border-top:1px solid var(--line);display:flex;flex-wr
   <section class="section" id="work">
     <div class="section-head">
       <div>
-        <div class="pre">01 — experience.log</div>
+        <div class="pre">02 — experience.log</div>
         <h2>Where systems get <em>built &amp; tuned</em>.</h2>
       </div>
       <div class="note">tail -f /var/log/career</div>
@@ -388,18 +411,17 @@ footer{padding:42px 0 50px;border-top:1px solid var(--line);display:flex;flex-wr
     <div class="xp">
       <article class="xpcard reveal">
         <div class="top">
-          <h3>System Engineer 2 <span class="at">@ Hewlett Packard Enterprise</span></h3>
+          <h3>Software Engineer <span class="at">@ Hewlett Packard Enterprise</span></h3>
           <div class="when">Feb 2024 — Present · Bengaluru <span class="badge">live</span></div>
         </div>
-        <div class="role">compute / automation / observability</div>
-        <p class="summary">Owning developer-experience tooling, RPM delivery and observability for HPE compute &amp; networking platforms.</p>
+        <div class="role">developer platforms / automation / observability</div>
+        <p class="summary">Building developer-experience tooling, release automation and observability for HPE compute &amp; networking platforms.</p>
         <ul>
-          <li><b>Designed and developed</b> a Slack ChatOps bot that orchestrated multi-stage Jenkins pipelines and delivered real-time notifications, reducing manual coordination and accelerating CI/CD workflows.</li>
-          <li><b>Automated</b> end-to-end system bring-up of new compute nodes with Mellanox and Cassini NICs, <span class="num">saving ~a week</span> of manual effort per cycle.</li>
-          <li><b>Built</b> a FastAPI service integrated with GitHub Webhooks to automate pull request tracking across releases, <span class="num">reducing manual triaging by 20+ hours/week</span>.</li>
-          <li><b>Implemented</b> centralized observability using Grafana, Prometheus, and Loki across <span class="num">100+ Linux servers</span> for infrastructure monitoring, logging, and operational visibility.</li>
-          <li><b>Engineered</b> a reusable CI/CD framework for automated RPM build, signing, validation, and publishing, standardizing software packaging across multiple repositories.</li>
-          <li><b>Performed root cause analysis</b> on release-blocking failures through log analysis and staging reproduction, implementing permanent fixes to prevent recurrence.</li>
+          <li><b>Designed and developed</b> an internal developer platform integrating Slack, GitHub, and Jenkins to automate build scheduling, system reservation, and CI/CD workflows across internal test systems, <span class="num">improving developer productivity by 90% across five global teams</span>.</li>
+          <li><b>Built</b> a FastAPI engineering dashboard integrated with GitHub webhooks for centralized visibility into pull requests across release branches, <span class="num">accelerating production issue investigation and root-cause analysis</span>.</li>
+          <li><b>Designed</b> Jenkins pipelines to automate RPM building, signing, and artifact publishing, improving release reliability and standardizing software delivery across multiple repositories.</li>
+          <li><b>Implemented</b> a centralized observability platform using Grafana, Loki, Zabbix, and SQLite across <span class="num">100+ servers</span>, unifying system health, user sessions, and audit activity for faster incident diagnosis.</li>
+          <li><b>Automated</b> Fabric Manager provisioning, system hardening, and compute-node driver installation to accelerate HPC test-system bring-up, <span class="num">reducing new-system provisioning time by ~one week</span>.</li>
         </ul>
       </article>
 
@@ -411,37 +433,11 @@ footer{padding:42px 0 50px;border-top:1px solid var(--line);display:flex;flex-wr
         <div class="role">backend / integrations / payments</div>
         <p class="summary">Built and operated the API surface that connected ITILITE’s travel platform to GDS and partner vendors.</p>
         <ul>
-          <li><b>Developed</b> REST and SOAP APIs using Python and Django for enterprise partner integrations, improving system interoperability and enabling new business capabilities.</li>
-          <li><b>Integrated</b> a SOAP API with a Terminal Service OT travel vendor, lifting company commissions by <span class="num">2.5%</span> on routed bookings.</li>
-          <li><b>Migrated</b> PCI credit-card data securely to GDS Smartpoint via Django and SOAP, eliminating <span class="num">₹50 lakh+</span> in annual payment-gateway expenses.</li>
-          <li><b>Diagnosed and resolved</b> production issues across hotel and bus booking workflows, improving application stability and operational performance.</li>
-          <li><b>Refactored</b> hotel refund categorization and cancellation logic in Python, improving refund accuracy and reducing customer support requests.</li>
+          <li><b>Implemented</b> a PCI-compliant payment workflow using Django and SOAP APIs to process customer card details in GDS Smartpoint, <span class="num">eliminating an estimated ₹50L+</span> in annual payment-gateway costs.</li>
+          <li><b>Enhanced</b> the cab-booking workflow with a Python-based SOAP integration to a GDS travel aggregator, enabling commission-based bookings and <span class="num">increasing revenue by 2.5%</span>.</li>
+          <li><b>Developed</b> a data-normalization layer in Python and Django to standardize hotel refund-policy responses from multiple travel vendors, ensuring consistent, accurate policy information across the platform.</li>
+          <li><b>Designed and built</b> custom REST-based enterprise integrations in Python and Django to onboard enterprise customers, <span class="num">enabling billable integrations that expanded product revenue</span>.</li>
         </ul>
-      </article>
-    </div>
-  </section>
-
-  <!-- PROJECTS -->
-  <section class="section" id="projects">
-    <div class="section-head">
-      <div>
-        <div class="pre">02 — projects.repo</div>
-        <h2>Small things, <em>shipped</em>.</h2>
-      </div>
-      <div class="note">git log --oneline --pretty</div>
-    </div>
-    <div class="proj-grid">
-      <article class="pcard reveal">
-        <div class="meta"><span>recipe-share · Oct 2023</span><span class="ok">● shipped</span></div>
-        <h3>Recipe Sharing Platform</h3>
-        <p>A Django REST API powering a recipe sharing platform with user profiles, search and secure auth. Containerized via Docker and documented end-to-end with Postman.</p>
-        <div class="stack"><span>Python</span><span>Django REST</span><span>Docker</span><span>Postman</span></div>
-      </article>
-      <article class="pcard reveal">
-        <div class="meta"><span>infra-deploy-mesh · Mar 2024</span><span class="ok">● shipped</span></div>
-        <h3>Automated Microservices Provisioning</h3>
-        <p>A localized infrastructure-as-code project deploying a multi-tier Python backend. Containerized via Docker with a fully automated Jenkins CI/CD pipeline simulating a zero-downtime production rollout.</p>
-        <div class="stack"><span>Python</span><span>Docker</span><span>Jenkins</span><span>Bash</span></div>
       </article>
     </div>
   </section>
@@ -516,7 +512,7 @@ footer{padding:42px 0 50px;border-top:1px solid var(--line);display:flex;flex-wr
 
   <footer>
     <div>// © 2026 · Sai Hitesh Gorantla</div>
-    <div>all systems nominal · last deploy: now</div>
+    <div>Built with HTML, CSS &amp; restraint · Bengaluru, IN</div>
   </footer>
 </main>
 
@@ -542,7 +538,8 @@ footer{padding:42px 0 50px;border-top:1px solid var(--line);display:flex;flex-wr
   "@context":"https://schema.org",
   "@type":"Person",
   "name":"Sai Hitesh Gorantla",
-  "jobTitle":"System Engineer 2",
+  "jobTitle":"Software Engineer",
+  "description":"Software Engineer specializing in developer platforms, backend systems, infrastructure automation, and CI/CD.",
   "worksFor":{"@type":"Organization","name":"Hewlett Packard Enterprise"},
   "url":"https://gshitesh.github.io/",
   "email":"mailto:gorantlahitesh01@gmail.com",
@@ -551,7 +548,9 @@ footer{padding:42px 0 50px;border-top:1px solid var(--line);display:flex;flex-wr
     "https://linkedin.com/in/sai-hitesh-gorantla"
   ],
   "address":{"@type":"PostalAddress","addressLocality":"Bengaluru","addressRegion":"KA","addressCountry":"IN"},
-  "knowsAbout":["Python","Django","Docker","Jenkins","Grafana","Prometheus","Loki","Linux","CI/CD","Observability"]
+  "alumniOf":{"@type":"CollegeOrUniversity","name":"Vellore Institute of Technology"},
+  "hasCredential":{"@type":"EducationalOccupationalCredential","credentialCategory":"certification","name":"CompTIA Security+ (SY0-701)","recognizedBy":{"@type":"Organization","name":"CompTIA"}},
+  "knowsAbout":["Software Engineering","Backend Development","Developer Platforms","Infrastructure Automation","Site Reliability Engineering","Developer Productivity","Python","FastAPI","Django","REST APIs","Docker","Jenkins","CI/CD","AWS","Ansible","Grafana","Prometheus","Loki","Zabbix","Linux","Observability"]
 }
 </script>
 
@@ -562,28 +561,6 @@ footer{padding:42px 0 50px;border-top:1px solid var(--line);display:flex;flex-wr
   },{threshold:.12});
   document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
 
-  // ---------- uptime sparkline (synthetic, deterministic) ----------
-  (function(){
-    const bars = document.getElementById('uptime-bars');
-    if(!bars) return;
-    const n = 90;
-    let total = 0, ok = 0;
-    for(let i=0;i<n;i++){
-      const seed = Math.sin(i*12.9898 + 78.233) * 43758.5453;
-      const r = seed - Math.floor(seed); // 0..1 deterministic
-      const warn = r > 0.985;
-      const h = warn ? 8 + r*8 : 14 + r*10;
-      total += 100;
-      ok += warn ? 96 : 100;
-      const b = document.createElement('i');
-      b.style.height = h + 'px';
-      if(warn) b.classList.add('warn');
-      b.title = warn ? 'minor incident · auto-recovered' : 'all green';
-      bars.appendChild(b);
-    }
-    document.getElementById('uptime-pct').textContent = (ok/total*100).toFixed(2) + '%';
-  })();
-
   // ---------- command palette ----------
   (function(){
     const overlay = document.getElementById('kbar');
@@ -592,12 +569,13 @@ footer{padding:42px 0 50px;border-top:1px solid var(--line);display:flex;flex-wr
     const openBtn = document.getElementById('kbar-open');
 
     const items = [
+      { ic:'§', g:'nav',     l:'Go to · Featured Work',   a:()=>jump('#featured')  },
       { ic:'§', g:'nav',     l:'Go to · Work',          a:()=>jump('#work')      },
-      { ic:'§', g:'nav',     l:'Go to · Projects',      a:()=>jump('#projects')  },
       { ic:'§', g:'nav',     l:'Go to · Capabilities',  a:()=>jump('#caps')      },
       { ic:'§', g:'nav',     l:'Go to · Archive',       a:()=>jump('#archive')   },
       { ic:'§', g:'nav',     l:'Go to · Contact',       a:()=>jump('#contact')   },
       { ic:'@', g:'contact', l:'Email · gorantlahitesh01@gmail.com', a:()=>open_('mailto:gorantlahitesh01@gmail.com') },
+      { ic:'↓', g:'resume',  l:'Open résumé (PDF)',                a:()=>open_('Sai-Hitesh-Gorantla-Resume.pdf') },
       { ic:'⧉', g:'contact', l:'Copy email to clipboard',       a:()=>copy('gorantlahitesh01@gmail.com') },
       { ic:'↗', g:'social',  l:'Open · GitHub @GSHitesh',       a:()=>open_('https://github.com/GSHitesh') },
       { ic:'↗', g:'social',  l:'Open · LinkedIn',               a:()=>open_('https://linkedin.com/in/sai-hitesh-gorantla') },

@@ -26,24 +26,23 @@
   <g transform="translate(72,76)" font-family="Geist Mono, ui-monospace, monospace" fill="#7b8290" font-size="22" letter-spacing="2">
     <circle cx="-2" cy="-7" r="6" fill="#22d3a0"/>
     <text x="14" y="0">~/saihitesh</text>
-    <text x="14" y="32" font-size="16" fill="#5eead4" letter-spacing="3">// SYSTEMS ENGINEER · IN</text>
+    <text x="14" y="32" font-size="16" fill="#5eead4" letter-spacing="3">// SOFTWARE ENGINEER · PLATFORMS &amp; BACKEND</text>
   </g>
 
   <!-- main title -->
   <g transform="translate(72,260)" fill="#e9edf3" font-family="Geist, system-ui, sans-serif">
     <text x="0" y="0" font-size="76" font-weight="600" letter-spacing="-2">Sai Hitesh Gorantla</text>
-    <text x="0" y="86" font-size="44" font-weight="500" fill="#c2c8d4" letter-spacing="-1">Building reliable backends,</text>
+    <text x="0" y="86" font-size="44" font-weight="500" fill="#c2c8d4" letter-spacing="-1">Software Engineer building</text>
     <text x="0" y="142" font-size="44" font-weight="500" letter-spacing="-1">
-      <tspan fill="#c2c8d4">quietly lit by the </tspan>
-      <tspan fill="#5eead4" font-style="italic" font-family="Instrument Serif, serif" font-weight="400">metrics they emit</tspan>
-      <tspan fill="#c2c8d4">.</tspan>
+      <tspan fill="#5eead4" font-style="italic" font-family="Instrument Serif, serif" font-weight="400">developer platforms</tspan>
+      <tspan fill="#c2c8d4"> &amp; backend systems.</tspan>
     </text>
   </g>
 
   <!-- bottom strip -->
   <g transform="translate(72,540)" font-family="Geist Mono, monospace" font-size="18" fill="#7b8290" letter-spacing="2">
     <circle cx="-2" cy="-6" r="5" fill="#22d3a0"/>
-    <text x="14" y="0">STATUS · ONLINE · ACCEPTING REQUESTS</text>
+    <text x="14" y="0">OPEN TO · SOFTWARE · PLATFORM · BACKEND ROLES</text>
   </g>
   <g transform="translate(1128,548)" text-anchor="end" font-family="Geist Mono, monospace" font-size="16" fill="#5eead4" letter-spacing="3">
     <text>GSHITESH.GITHUB.IO</text>
@@ -52,16 +51,16 @@
   <!-- Decorative HUD bars -->
   <g transform="translate(820,180)">
     <rect width="308" height="220" fill="#10131a" stroke="rgba(255,255,255,.08)" rx="14"/>
-    <text x="20" y="34" font-family="Geist Mono, monospace" font-size="12" fill="#7b8290" letter-spacing="2">// METRICS</text>
+    <text x="20" y="34" font-family="Geist Mono, monospace" font-size="12" fill="#7b8290" letter-spacing="2">// IMPACT</text>
     <g font-family="Geist, sans-serif" fill="#e9edf3">
       <text x="20" y="76"  font-size="34" font-weight="600">~90<tspan font-size="18" fill="#5eead4">%</tspan></text>
-      <text x="20" y="104" font-size="12" font-family="Geist Mono, monospace" fill="#7b8290" letter-spacing="2">DEV EFFICIENCY</text>
-      <text x="160" y="76" font-size="34" font-weight="600">&lt;1<tspan font-size="18" fill="#5eead4">d</tspan></text>
-      <text x="160" y="104" font-size="12" font-family="Geist Mono, monospace" fill="#7b8290" letter-spacing="2">ONBOARDING</text>
+      <text x="20" y="104" font-size="11" font-family="Geist Mono, monospace" fill="#7b8290" letter-spacing="1.5">DEV PRODUCTIVITY</text>
+      <text x="170" y="76" font-size="34" font-weight="600">100<tspan font-size="18" fill="#5eead4">+</tspan></text>
+      <text x="170" y="104" font-size="11" font-family="Geist Mono, monospace" fill="#7b8290" letter-spacing="1.5">SERVERS</text>
       <text x="20" y="160" font-size="34" font-weight="600">₹50L<tspan font-size="18" fill="#5eead4">+</tspan></text>
-      <text x="20" y="188" font-size="12" font-family="Geist Mono, monospace" fill="#7b8290" letter-spacing="2">ANNUAL SAVED</text>
-      <text x="160" y="160" font-size="34" font-weight="600">+20<tspan font-size="18" fill="#5eead4">%</tspan></text>
-      <text x="160" y="188" font-size="12" font-family="Geist Mono, monospace" fill="#7b8290" letter-spacing="2">OPS GAIN</text>
+      <text x="20" y="188" font-size="11" font-family="Geist Mono, monospace" fill="#7b8290" letter-spacing="1.5">ANNUAL SAVED</text>
+      <text x="170" y="160" font-size="34" font-weight="600">~1<tspan font-size="18" fill="#5eead4">wk</tspan></text>
+      <text x="170" y="188" font-size="11" font-family="Geist Mono, monospace" fill="#7b8290" letter-spacing="1.5">FASTER BRING-UP</text>
     </g>
   </g>
 </svg>
